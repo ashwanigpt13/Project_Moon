@@ -1,0 +1,38 @@
+/* div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .1));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
+  body{
+    background:  url('images/tsl.jpg') no-repeat ;
+  
+   
+    background-size: cover;
+  }
+  p{
+    align-items: center ;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 20%;
+    /* background: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, .1)); */
+    font-size:larger;
+    font-style: italic;
+    color: rgb(228, 235, 235);
+  }
+  a {
+    margin-left: 40%;
+    margin-top: 30%;
+    padding: 15px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #0a0101;
+    border-radius: .25rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.808)
+
+  }

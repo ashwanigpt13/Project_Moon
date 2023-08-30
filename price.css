@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+   background-image: url('images/price.jpg');
+   background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+    color: white;
+}
+.container{
+    height: 280px;
+    width: 35%;
+    background-color: rgb(8, 8, 51);
+    opacity: .8;
+   margin-top: 10%;
+   margin-left: 10%; 
+   padding: 10px;
+   border-radius: 15px;
+   box-shadow: 0 0 20px rgba(255, 255, 255, 0.808)
+   
+}
+.container:hover{
+    
+    translate: 0 -19px;
+    transition-duration: 1s;
+}
+h3 span{
+    font-weight: bold;
+    font-size: 40px;
+}

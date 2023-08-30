@@ -1,0 +1,135 @@
+
+body{
+    background-color: white;
+    background-image: url('images/moon1.jpg') ; background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1{
+    text-align: center;
+    background-color: orangered;
+    
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+    /* background-color: grey; */
+    color: white;
+}
+.bot{
+    background-color: rgb(53, 232, 53);
+}
+marquee{
+    background-color: grey;
+    border-radius: 15px;
+}
+.formdiv{
+    opacity: .9;
+    height: 361px;
+    margin: auto;
+    width: 50%
+   
+}
+.outer{
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    
+    z-index: -1;
+    opacity: 0.8;
+    width: 100%;
+}
+.registerbtn{
+    border: 4px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.navbar{
+    align-items: center;
+    
+    border-radius: 10px;
+    opacity: .5;
+    color: white;
+
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    color: white;
+   
+}
+.nav{
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    opacity: 1;
+    font-weight: bold;
+    
+
+}
+.nav:hover{
+    background-color: grey;
+    box-shadow: 0 0 20px white;
+    translate: 0 -5px;
+    transition-duration: 1s;
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
+
+
+#p1{
+color: beige;
+text-align: center;
+font-size: 50px;
+
+}
+
+#p2{
+
+    color: #d4d4dc;
+    border-radius: 10px;
+}
+
+.container2{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.section1{
+   
+    align-items: center;
+    margin-left: 360px;
+}

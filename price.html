@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="price.css">
+<title> price of Land on moon</title>
+<body>
+<div class="container">
+
+    
+        <h1>Calculate Price of Your Land</h1>
+<p>Type a value in the Acre field to find the price of Land:</p>
+
+<p>
+  <label>Acre</label>
+  <input id="inputAcre" type="number" placeholder="Acre" oninput="Converter(this.value)" onchange="Converter(this.value)">
+</p>
+<h3>Price: INR   <span id="output"></span> </h3>
+    
+</div>
+
+
+<script>
+function Converter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("output").innerHTML=(valNum)*3102.99;
+}
+</script>
+
+</body>
+</html>
