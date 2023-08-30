@@ -1,0 +1,17 @@
+body{
+    background-image: url('images/support.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+}
+div{
+    margin-top: 30%;
+    margin-left: 27%;
+    background-image: url('images/qr.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    z-index: +1;
+    background-color: red;
+    height: 260px;
+    width: 210px;
+}
